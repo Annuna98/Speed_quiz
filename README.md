@@ -8,44 +8,44 @@ Speed Quiz - приложение для игры в квизы, которое 
 
 |   Выбор игры  |  Начало игры  | Вопрос 1 |
 | ------------- | ------------- |----------|
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/admin-start.png" width="300"> | <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/admin-generated-key.png" width="300">  | <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/admin-question1.png" width="300"> |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/admin-start.png" width="300"> | <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/admin-generated-key.png" width="300">  | <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/admin-question1.png" width="300"> |
 
 
 |   Порядок ответов  |  Проверка ответов | Вопрос 2 |
 | ------------- | ------------- | -------------|
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/admin-order-of-answers.png" width="300"> | <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/admin-validate-answer.png" width="300">  | <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/admin-question2.png" width="300">  |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/admin-order-of-answers.png" width="300"> | <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/admin-validate-answer.png" width="300">  | <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/admin-question2.png" width="300">  |
 
 * Экран игрока. Роль игрока заключается в нажатии на скорость кнопки “Знаю ответ” при появлении вопроса на экране. Для того чтобы игроку подключиться к сессии игры необходимо отсканировать предоставленный QR-код на главном экране.
 
 |   Ввод имени  |  Подключение участников  | Вопрос 1 |
 | ------------- | ------------- | -------------|
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/player-input-form.PNG" width="300"> | <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/player-participants.PNG" width="300">  |<img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/player-question1.PNG" width="300">  |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/player-input-form.PNG" width="300"> | <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/player-participants.PNG" width="300">  |<img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/player-question1.PNG" width="300">  |
 
 |   Порядок ответа  |  Конец игры  | 
 | ------------- | ------------- |
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/player-order-of-answer.PNG" width="300"> | <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/player-and-game.PNG" width="300">  |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/player-order-of-answer.PNG" width="300"> | <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/player-and-game.PNG" width="300">  |
 
 *	Главный экран показывает всю необходимую информацию
 
 |   Ввод ключа  |
 | ------------- |
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/desktop-input-key.png" width="1000"> |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/desktop-input-key.png" width="1000"> |
 
 |   Подключение игроков  |
 | ------------- |
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/desktop-qr.png" width="1000"> |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/desktop-qr.png" width="1000"> |
 
 |   Результаты первого вопроса  |
 | ------------- |
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/desktop-results.png" width="1000"> |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/desktop-results.png" width="1000"> |
 
 |   Вопрос 2 |
 | ------------- |
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/desktop-question2.png" width="1000"> |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/desktop-question2.png" width="1000"> |
 
 |   Результаты игры  |
 | ------------- |
-| <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/desktop-results-game.png" width="1000"> |
+| <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/desktop-results-game.png" width="1000"> |
 
 ### Figma
 [https://www.figma.com/file/RLnE09wipLF86Zmp1pUzc8/Speed-Squiz-(Copy)?node-id=0%3A1]
