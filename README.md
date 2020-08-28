@@ -47,27 +47,9 @@ Speed Quiz - приложение для игры в квизы, которое 
 | ------------- |
 | <img src="https://github.com/serbeys/speed_quiz_frontend/blob/master/screenshots/desktop-results-game.png" width="1000"> |
 
-## Quick Start
-Если вы хотите запустить приложение на локальный машине:
+### Figma
+[https://www.figma.com/file/RLnE09wipLF86Zmp1pUzc8/Speed-Squiz-(Copy)?node-id=0%3A1]
 
-#### Важно!! Для того, чтобы подключиться к игре через телефон, он должен находиться в одной сети с локальной машиной, также в environment.ts (строка 7), player-question.component.ts (строка 32), question-admin.component.ts (строка 33), question.component.ts( строка 33) измените значение на ip вашей сети
-
-### Backend
-```
-git clone https://github.com/serbeys/speed_quiz_backend.git
-cd speed_quiz_backend
-npm i
-strapi start
-```
-
-### Frontend
-```
-Git clone https://github.com/serbeys/speed_quiz_frontend.git -b develop
-cd speed_quiz_frontend
-npm i
-ng serve –host 0.0.0.0
-```
-
-Чтобы перейти на страницу главного экрана, вводите localhost:4200/
-Чтобы перейти на страницу экрана админа, вводите localhost:4200/admin
+## Стек технологий
+Angular, Strapi, NodeJS
 
