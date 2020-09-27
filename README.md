@@ -57,7 +57,7 @@ Angular, Strapi, NodeJS
 ## Бэкенд
 https://github.com/Annuna98/SpeedQuiz_backend.git
 
-##Quick Start
+## Quick Start
 Если вы хотите запустить приложение на локальный машине:
 
 Backend
