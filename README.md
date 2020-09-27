@@ -60,11 +60,14 @@ https://github.com/Annuna98/SpeedQuiz_backend.git
 ## Quick Start
 Если вы хотите запустить приложение на локальный машине:
 
-Backend
+#### Backend
+
+```
 git clone https://github.com/Annuna98/SpeedQuiz_backend.git -b develop
 cd speed_quiz_backend
 npm i
 strapi develop
+```
 
 Затем переходите в localhost:1337/admin и регистрируетесь,
 В коллекции Games создаете 3 игры:
@@ -76,9 +79,11 @@ strapi develop
 Каждый вопрос привязываете к конкретной игре:
 <img src="https://github.com/Annuna98/Speed_quiz/blob/master/screenshots/strapi3.png" width="1000">
 
-Frontend: 
+#### Frontend: 
+
+```
 Git clone https://github.com/Annuna98/Speed_quiz.git -b develop
 cd speed_quiz_frontend
 npm i
 ng serve
-
+```
