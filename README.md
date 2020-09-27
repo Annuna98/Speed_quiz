@@ -57,3 +57,15 @@ Angular, Strapi, NodeJS
 ## Бэкенд
 https://github.com/Annuna98/SpeedQuiz_backend.git
 
+##Quick Start
+Если вы хотите запустить приложение на локальный машине:
+
+Backend
+git clone https://github.com/Annuna98/SpeedQuiz_backend.git
+cd speed_quiz_backend
+npm i
+strapi develop
+
+Затем переходите в localhost:1337/admin и регистрируетесь,
+В коллекции Games создаете 3 игры:
+
