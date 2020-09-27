@@ -1,0 +1,24 @@
+
+<div class="phone-body">
+    <div class="center">
+        <p class="title">Speed Quiz</p>
+        <label class="name-key">Введите название вашей команды</label><br>
+
+
+            <form  (ngSubmit)="sendName()">
+                <label>
+                    <div class="phone-border-input">
+                    <input class="phone-input" placeholder="Команда" matInput type="text" name="key" [(ngModel)]="key" #name="ngModel" required >
+                    </div>
+                </label>
+            </form>
+
+<!--            <button mat-button *ngIf="key" matSuffix mat-icon-button aria-label="Clear" (click)="key=''"><mat-icon>close</mat-icon></button>-->
+
+<!--        <div class="invalid-key" [hidden]=" name.invalid">Имя уже занято</div>-->
+
+    </div>
+
+
+</div>
+

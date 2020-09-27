@@ -1,0 +1,18 @@
+<div class="phone-body">
+    <p class="phone-title">Начало игры</p>
+    <div class="phone-question-number"></div>
+    <div class="content">
+        <div class="text">
+            <p>Игра началась</p>
+            <div  [(ngModel)]="key" value="key">Пожалуйста, иcпользуйте Game ID <p class="key">{{key}}</p> для подключения</div>
+
+        </div>
+    </div>
+    <div class="phone-border-button">
+<!--        <input class="phone-button" type="submit" value="Продолжить" (click)="next()" />-->
+        <button class="phone-button" (click)="next()">Продолжить</button>
+    </div>
+
+
+
+</div>

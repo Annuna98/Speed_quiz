@@ -1,0 +1,45 @@
+
+.title{
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 69px;
+    letter-spacing: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 2px -2px #12377D;
+
+}
+.center{
+    margin: 50% 5%;
+    text-align: center;
+}
+.phone-input{
+    background-color: #FFFFFF;
+    border: 0px;
+    width: 279px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    outline: none;
+    float: right;
+    position: relative;
+    border-radius: 0px;
+    font-family: Montserrat Alternates;
+}
+.phone-border-input{
+    margin: 15px 0px 0px 12%;
+    /*margin: 76px 0px 0px 80px;*/
+    width: 285px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+name-key{
+    font-size: 18px;
+}
+/*.example-form-field{*/
+/*    background-color: #FFFFFF;*/
+/*}*/

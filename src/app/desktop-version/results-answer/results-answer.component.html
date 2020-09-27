@@ -1,0 +1,14 @@
+<div class="desktop-body">
+    <div class="desktop-center">
+        <p class="desktop-title">Вопрос {{questionId}}: Результаты</p>
+        <div class="participants">
+            <span class="participant" *ngFor="let user of connectedUsers">
+                <span class="material-icons">speaker_phone</span><br>
+                <span>{{user.name}}</span><br>
+                <span>{{user.result}}</span>
+            </span>
+        </div>
+    </div>
+
+
+</div>

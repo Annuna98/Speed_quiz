@@ -1,0 +1,21 @@
+<div class="phone-body">
+
+        <p class="phone-title">Начало игры</p>
+    <div class="phone-question-number"></div>
+    <div class="content">
+        <p class="start-game">Выберите игру, чтобы начать</p>
+
+        <mat-form-field >
+            <mat-select class="select-game" [(ngModel)]="selectedItem" >
+                <mat-option *ngFor="let game of games" [value]="game">{{game}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+        <div class="phone-border-button">
+<!--            <input class="phone-button" type="submit" value="Начать игру" (click)="sendGame(selectedItem)"/>-->
+            <button class="phone-button" (click)="sendGame(selectedItem)">Начать игру</button>
+        </div>
+
+
+
+</div>

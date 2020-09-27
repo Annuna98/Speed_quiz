@@ -1,0 +1,21 @@
+
+.participants{
+    margin: 5% 13%;
+    width: 670px;
+    height: 130px;
+    overflow-x: auto;
+    -ms-overflow-x: auto;
+    /*border: 1px solid red;*/
+}
+.participant{
+    float: left;
+    margin: 5px 15px;
+    text-align: center;
+    /*border: 1px dashed orange;*/
+    font-size: 20px;
+}
+.material-icons{
+    font-size: 40px;
+
+}
+

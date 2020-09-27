@@ -1,0 +1,15 @@
+<div class="desktop-body">
+    <div class="desktop-center">
+        <p class="title">Speed Quiz</p>
+        <div class="enter-your-key">
+            <label class="name-key">Введите ключ вашей игры</label><br>
+        </div>
+        <form (ngSubmit)="sendSession() ">
+            <label>
+                <div class="desktop-input-form-border">
+                    <input class="desktop-input-form" type="text" name="key" [(ngModel)]="key" #name="ngModel" required >
+                </div>
+            </label>
+        </form>
+    </div>
+</div>

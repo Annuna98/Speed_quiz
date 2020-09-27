@@ -1,0 +1,28 @@
+.phone-participants{
+    overflow-y: scroll;
+    -ms-overflow-y: scroll;
+    width: 170px;
+    height: 250px;
+    /*border: 1px solid black;*/
+    margin: 0px 25%;
+}
+
+.material-icons{
+    float:left;
+    margin: 0px;
+    left: 0px
+}
+.list-of-users{
+    height: 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+
+
+}
+.user{
+    margin: 0px;
+
+    left: 0px
+}
+

@@ -1,0 +1,64 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet');*/
+
+/*.desktop-question-page{*/
+/*    background-image: url("../../../../images/28508151.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    top: 0px;*/
+/*    left: 0px;*/
+/*    font-family: Montserrat Alternates;*/
+/*    text-align: center;*/
+/*}*/
+.question{
+    float: left;
+    /*border: 1px solid black;*/
+    width: 60%;
+
+}
+.order-of-answers{
+    border-left: 1px solid gray;
+    float: right;
+    width: 39%;
+    height: 100%;
+}
+img{
+   width: 300px;
+}
+
+.title{
+    margin-top: 152px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.text{
+    font-size: 26px;
+}
+.time{
+    font-size: 32px;
+}
+.order-of-answers-title{
+    margin-top: 30%;
+    font-size: 25px;
+}
+.list-of-users{
+    height: 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.material-icons{
+    float:left;
+    margin: 0px;
+    left: 0px
+}
+.desktop-participants{
+    overflow-y: scroll;
+    -ms-overflow-y: scroll;
+    width: 200px;
+    height: 300px;
+    /*border: 1px solid black;*/
+    margin: 0px 31%;
+}

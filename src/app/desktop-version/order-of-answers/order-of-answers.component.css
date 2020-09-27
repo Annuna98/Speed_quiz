@@ -1,0 +1,35 @@
+
+.question{
+    float: left;
+    /*border: 1px solid black;*/
+    width: 60%;
+
+}
+.participants{
+    height: 300px;
+    overflow-y: auto;
+}
+.order-of-answers{
+    border-left: 1px solid gray;
+    float: right;
+    width: 39%;
+    height: 100%;
+
+}
+img{
+    width: 400px;
+}
+
+.title{
+    margin-top: 152px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.text{
+    font-size: 26px;
+}
+.order-of-answers-title{
+    font-size: 25px;
+    margin-top: 30%;
+}

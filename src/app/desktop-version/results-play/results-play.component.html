@@ -1,0 +1,13 @@
+<div class="desktop-body">
+    <div class="desktop-center">
+        <p class="desktop-title">Результаты игры</p>
+        <div class="participants">
+            <span class="participant" *ngFor="let user of result">
+                <span class="material-icons">speaker_phone</span><br>
+                <span>{{user.name}}</span><br>
+                <span>{{user.result}}</span>
+            </span>
+        </div>
+    </div>
+
+</div>

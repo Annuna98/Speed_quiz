@@ -1,0 +1,17 @@
+<div class="desktop-body">
+    <div class="desktop-center">
+        <div class="connecting-title">Подключение игроков</div>
+        <div class="qrcode-image">
+            <qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+        </div>
+        <div class="participants">
+            <span class="participant" *ngFor="let user of connectedUsers">
+                <span class="material-icons">speaker_phone</span><br>
+                <span>{{user}}</span>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+

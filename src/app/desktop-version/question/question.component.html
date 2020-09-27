@@ -1,0 +1,22 @@
+<div class="desktop-body">
+    <div class="question">
+        <p class="title">Вопрос {{questionId}}</p>
+        <p class="text">{{text}}</p>
+
+        <div >
+            <img [src]="url">
+        </div>
+        <div class="time">Время на раздумье: {{timeLeft}}</div>
+    </div>
+    <div class="order-of-answers">
+        <p class="order-of-answers-title">Порядок ответов: </p>
+        <div class="desktop-participants">
+            <div class="list-of-users" *ngFor="let user of raisedTheHand">
+                <span class="material-icons">speaker_phone</span>
+                <span class="user">{{user}}</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>

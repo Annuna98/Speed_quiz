@@ -1,0 +1,16 @@
+<div class="phone-body">
+    <p class="phone-title">Игра {{key}}</p>
+    <div class="phone-question-number"></div>
+
+    <div class="content">
+        <p class="phone-text-in-box">Участники</p>
+        <div class="phone-participants">
+            <div class="list-of-users" *ngFor="let user of obj">
+                <span class="material-icons">speaker_phone</span>
+                <span class="user">{{user}}</span>
+            </div>
+        </div>
+    </div>
+
+    <p class="phone-footer-text">Ожидайте начала игры</p>
+</div>

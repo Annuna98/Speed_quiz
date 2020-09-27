@@ -1,0 +1,17 @@
+<div class="phone-body">
+    <p class="phone-title">Игра {{key}}</p>
+    <div class="phone-question-number">Вопрос {{questionId}}</div>
+
+    <div class="content">
+        <p class="phone-text-in-box">Порядок ответа</p>
+        <div class="phone-participants">
+            <div class="list-of-users" *ngFor="let user of raisedTheHand">
+                <span class="material-icons">speaker_phone</span>
+                <span class="user">{{user}}</span>
+            </div>
+        </div>
+    </div>
+    <p class="phone-footer-text">Ведущий проверяет ответы</p>
+</div>
+
+

@@ -1,0 +1,39 @@
+<div class="phone-body">
+    <p class="phone-title">Игра {{key}}</p>
+    <div class="phone-question-number">Вопрос {{questionId}}</div>
+    <div class="content">
+        <div class="phone-validate-participants">
+            <table >
+                <tr class="list-of-users" *ngFor=" let user of connectedUsers">
+                    <td>
+                        <span class="material-icons">speaker_phone</span>
+                    </td>
+                    <td><span class="user">{{user}}</span></td>
+                    <td>
+                        <div class="border-button">
+                            <button (click)="right(user)" [disabled]="!ValidForm(user)">Верно</button>
+                        </div>
+                        <div class="border-button">
+                            <button (click)="wrong(user)" [disabled]="!ValidForm(user)">Неверно</button>
+                        </div>
+
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+<!--        <div *ngFor=" let user of connectedUsers" >-->
+<!--            <div  class="participants">-->
+<!--                <span class="material-icons">speaker_phone</span>-->
+<!--                <span class="user">{{user}}</span>-->
+<!--            </div>-->
+<!--            <div class="buttons">-->
+<!--                <button (click)="right(user)" [disabled]="!ValidForm(user)">Верно</button>-->
+<!--                <button (click)="wrong(user)" [disabled]="!ValidForm(user)">Неверно</button>-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+    <div class="phone-border-button">
+        <button class="phone-button" (click)="nextQusetion()">Следующий вопрос</button>
+    </div>
+</div>

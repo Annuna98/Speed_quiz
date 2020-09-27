@@ -1,0 +1,16 @@
+<div class="phone-body">
+    <p class="phone-title">Игра {{key}}</p>
+    <div class="phone-question-number">Вопрос {{questionId}}</div>
+    <div class="content">
+        <p>{{text}}</p>
+        <div >
+            <img [src]="url">
+
+        </div>
+        <div>Время на раздумье: {{timeLeft}}</div>
+    </div>
+    <div class="phone-border-button">
+    <button class="phone-button" (click)="raiseTheHand()">Знаю ответ</button>
+    </div>
+</div>
+
