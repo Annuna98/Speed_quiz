@@ -53,3 +53,6 @@ Speed Quiz - приложение для игры в квизы, которое 
 ## Стек технологий
 Angular, Strapi, NodeJS
 
+## Бэкенд
+https://github.com/Annuna98/SpeedQuiz_backend.git
+
